@@ -1,0 +1,300 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5016764366,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Homepage.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Searching for relevent items using search field",
+        "description": "",
+        "id": "homepage-features;searching-for-relevent-items-using-search-field",
+        "after": [
+          {
+            "result": {
+              "duration": 750406699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Homepage.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2446959260,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User able to access adidas website",
+            "match": {
+              "location": "Homepage.user_able_to_access_adidas_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 713834777,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User able to close location modal",
+            "match": {
+              "location": "Homepage.user_able_to_close_location_modal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 375135236,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on the search field",
+            "match": {
+              "location": "Homepage.user_click_on_the_search_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92593569,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User type for a relavent product name into search field",
+            "match": {
+              "location": "Homepage.user_type_for_a_relavent_product_name_into_search_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217900372,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click press enter from keyboard",
+            "match": {
+              "location": "Homepage.user_click_press_enter_from_keyboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6901989527,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be taken to the page contain relavent search data",
+            "match": {
+              "location": "Homepage.user_should_be_taken_to_the_page_contain_relavent_search_data()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3911806295,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Homepage.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Access navigation menu",
+        "description": "",
+        "id": "homepage-features;access-navigation-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 545213263,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Homepage.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3166820233,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User able to access adidas website",
+            "match": {
+              "location": "Homepage.user_able_to_access_adidas_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 285838183,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User able to close location modal",
+            "match": {
+              "location": "Homepage.user_able_to_close_location_modal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172316449,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User hover mouse pointer on Men in top navigation",
+            "match": {
+              "location": "Homepage.user_hover_mouse_pointer_on_Men_in_top_navigation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5244524895,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on All men\u0027s under Men navigation",
+            "match": {
+              "location": "Homepage.click_on_All_men_s_under_Men_navigation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 276301333,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should be taken to the page containing Men\u0027s product",
+            "match": {
+              "location": "Homepage.user_should_be_taken_to_the_page_containing_Men_s_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3914271918,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Homepage.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Carousel is working properly",
+        "description": "",
+        "id": "homepage-features;carousel-is-working-properly",
+        "after": [
+          {
+            "result": {
+              "duration": 573597079,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Homepage.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2981546787,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User able to access adidas website",
+            "match": {
+              "location": "Homepage.user_able_to_access_adidas_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 264527928,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User able to close location modal",
+            "match": {
+              "location": "Homepage.user_able_to_close_location_modal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84032237,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User can see the image on carousel",
+            "match": {
+              "location": "Homepage.user_can_see_the_image_on_carousel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 414981747,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on the right arrow for next carousel item",
+            "match": {
+              "location": "Homepage.click_on_the_right_arrow_for_next_carousel_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 273112586,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should be able see that carousel image is updated to next one",
+            "match": {
+              "location": "Homepage.user_should_be_able_see_that_carousel_image_is_updated_to_next_one()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Homepage features",
+    "description": "User should be able to use some core feature on the homepage",
+    "id": "homepage-features",
+    "keyword": "Feature",
+    "uri": "homepage.feature"
+  }
+]
