@@ -22,7 +22,8 @@ public class BrowserSetup {
 		// global_data=new Properties();
 		FileInputStream file_global = new FileInputStream(
 				//"C:\\Users\\User\\Desktop\\CucumberFramework_adidas\\CucuberFramework\\src\\main\\java\\CucuberFramework\\pageObjects\\global.properties");
-			"F:/\\projects/\\ads-cucumber/\\src/\\main/\\java/\\CucuberFramework/\\pageObjects/\\global.properties");
+			//"F:/\\projects/\\ads-cucumber/\\src/\\main/\\java/\\CucuberFramework/\\pageObjects/\\global.properties");
+			"src/main/resources/global.properties");
 		global_data.load(file_global);
 		// 
 		String browserName = (String)System.getProperty("browserName");
